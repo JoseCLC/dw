@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.historia-geral{
+    font-size: 24px;
+    width: 70%;
+    text-align: justify;
+    /* line-height: 20px; */
+}
+
+.titulos-caixa{
+    font-size: 45px;
+    text-align: center;
+}
+
+table{
+    margin: 20px 0 40px 0;
+}
+
+thead{
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+.quimicas{
+    width: 100px;
+    height: 100px;
+}
