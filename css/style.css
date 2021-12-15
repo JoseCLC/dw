@@ -1,13 +1,10 @@
 .cabecalho{
-  /* display: flex;
-  flex-direction: row; */
   background-color: rgba(55, 219, 40, 0.541);
   padding: 80px;
 }
 
-.logo{
- /*  height: 200px; */
-  width: 20%;
+.cabecalho img{
+  width: 200px;
 }
 
 .titulo_nav{
