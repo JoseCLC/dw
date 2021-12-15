@@ -9,7 +9,6 @@ main{
     font-size: 24px;
     width: 70%;
     text-align: justify;
-    /* line-height: 20px; */
 }
 
 .titulos-caixa{
@@ -19,17 +18,22 @@ main{
 
 table{
     margin: 20px 0 40px 0;
+    align-items: center;
 }
 
 thead{
-    background: #555;
+    background: rgb(0, 0, 0);
     color: white;
     font-weight: bold;
 }
 
 td, th{
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 8px 15px;
+}
+
+.conteudo-tabela{
+    height: 90px;
 }
 
 .quimicas{
