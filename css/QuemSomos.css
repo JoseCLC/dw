@@ -1,10 +1,8 @@
 .personalidades{
-        /* display: flex; */
-        /* flex-direction: column; */
-        width: 940px;
-        margin: 0 auto;
-        padding: 20px;
-        text-align: center;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
 .personalidades li{
@@ -33,11 +31,6 @@
     transition: 0.2s border;
 }
 
-/* .doisEmdois{
-    display: flex;
-    flex-direction: column;
-} */
-
 .personalidades h2{
     font-size: 20px;
     font-weight: bold;
@@ -46,7 +39,6 @@
 
 .personalidades p{
     text-align: justify;
-    /* width: 200px fit-content;  */
     width: 200px;
     padding: 5px 0px;
     margin: 20px;
