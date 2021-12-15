@@ -1,11 +1,19 @@
 .cabecalho{
+  /* display: flex;
+  flex-direction: row; */
   background-color: rgba(55, 219, 40, 0.541);
   padding: 80px;
 }
 
+.logo{
+ /*  height: 200px; */
+  width: 20%;
+}
+
 .titulo_nav{
-  position: relative;
-  width: 940px;
+  display: flex;
+  align-items: center;
+  width: 840px;
 }
 
 body{
@@ -31,8 +39,9 @@ body::-webkit-scrollbar-thumb {
 
 .menu{
   position: absolute;
-  top: 80px;
+  top: 132.5px; 
   right: 0;
+  padding-right: 30px;
 }
 
 .Item_menu{
